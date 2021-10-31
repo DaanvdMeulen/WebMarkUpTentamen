@@ -1,0 +1,1340 @@
+* body
+    {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: notable;
+    }
+
+/* Index PC */
+@media screen and (min-width: 1280px)
+{
+header /* NIET VERWIJDEREN! */
+    {
+    grid-area: headerTag;
+    background-color: #7fffd4;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+#articleIndex
+    {
+    grid-area: articleTag;
+    background-color: #ffb732;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-indent: 0px;
+    word-spacing: normal;
+    border-style: double;
+    border-width: thin;
+    }
+#sectionIndex
+    {
+    grid-area: sectionTag;
+    background-color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#asideIndex
+    {
+    grid-area: asideTag;
+    background-color: #ffff00;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border-style: double;
+    border-width: thin;
+    }
+#indexpic1, #indexpic2, #indexpic3
+    {
+    float: right;
+    width : 300px;
+    margin-right: 10px;
+    border: solid 2px #FFFFFF;
+    margin: 5px;
+    }
+#bdIndex:hover, #ticketsIndex:hover, #contactIndex:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#bdIndex:active, #ticketsIndex:active, #contactIndex:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#cookieIndex
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+#grid-index
+    {
+    display: flex;
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag    '
+        'articleTag articleTag  articleTag  articleTag  articleTag  articleTag  '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+/* Index Tablet */
+@media screen and (min-width: 481px) and (max-width: 1279px)
+{
+header /* NIET VERWIJDEREN! */
+    {
+    grid-area: headerTag;
+    background-color: #7fffd4;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+#articleIndex
+    {
+    grid-area: articleTag;
+    background-color: #ffb732;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-indent: 0px;
+    word-spacing: normal;
+    border-style: double;
+    border-width: thin;
+    }
+#sectionIndex
+    {
+    grid-area: sectionTag;
+    background-color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#asideIndex
+    {
+    grid-area: asideTag;
+    background-color: #ffff00;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border-style: double;
+    border-width: thin;
+    }
+#indexpic1, #indexpic2, #indexpic3
+    {
+    float: left;
+    width : 300px;
+    margin-right: 10px;
+    border: solid 2px #FFFFFF;
+    margin: 5px;
+    }
+#bdIndex:hover, #ticketsIndex:hover, #contactIndex:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#bdIndex:active, #ticketsIndex:active, #contactIndex:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#cookieIndex
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+#grid-index
+    {
+    display: flex;
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  sectionTag  '
+        'asideTag   asideTag    asideTag    asideTag    asideTag    asideTag    '
+        'articleTag articleTag  articleTag  articleTag  articleTag  articleTag  '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+/* Index Mobile */
+@media screen and (max-width: 480px)
+{
+header /* NIET VERWIJDEREN! */
+    {
+    grid-area: headerTag;
+    background-color: #7fffd4;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+#articleIndex
+    {
+    grid-area: articleTag;
+    background-color: #ffb732;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-indent: 0px;
+    word-spacing: normal;
+    border-style: double;
+    border-width: thin;
+    }
+#sectionIndex
+    {
+    grid-area: sectionTag;
+    background-color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#asideIndex
+    {
+    grid-area: asideTag;
+    background-color: #ffff00;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border-style: double;
+    border-width: thin;
+    }
+#indexpic1, #indexpic2, #indexpic3
+    {
+    float: left;
+    width : 300px;
+    margin-right: 10px;
+    border: solid 2px #FFFFFF;
+    margin: 5px;
+    }
+#bdIndex:hover, #ticketsIndex:hover, #contactIndex:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#bdIndex:active, #ticketsIndex:active, #contactIndex:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#cookieIndex
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+#grid-index
+    {
+    display: flex;
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  sectionTag  '
+        'asideTag   asideTag    asideTag    asideTag    asideTag    asideTag    '
+        'articleTag articleTag  articleTag  articleTag  articleTag  articleTag  '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+
+/* Best Destinations PC */
+@media screen and (min-width: 1280px)
+{
+#indexBD:hover, #ticketsBD:hover, #contactBD:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#indexBD:active, #ticketsBD:active, #contactBD:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#articleBD
+    {
+    grid-area: artBDTag;
+    }
+#articleBD1, #articleBD2, #articleBD3, #articleBD4, #articleBD5, #articleBD6
+    {
+    grid-area: artTag1, artTag2, artTag3, artTag4, artTag5, artTag6;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-indent: 0px;
+    word-spacing: normal;
+    border-style: double;
+    border-width: thin;
+    }
+#asideBD1, #asideBD2, #asideBD3
+    {
+    grid-area: asideTag1, asideTag2, asideTag3;
+    border-radius: 10px;
+    border-color: #ffffff;
+    }
+#bdF1, #bdF2, #bdF3
+    {
+    grid-area: bdf1Tag, bdf2Tag, bdf3Tag;
+    display: block;
+    float: left;
+    padding: 5px;
+    border: solid 2px #FFFFFF;
+    }
+#cookieBD
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+figcaption
+    {
+    color: #ffffff;
+    }
+figcaption:hover
+    {
+    color: #91ff00;
+    text-decoration: none;
+    }
+#grid-bd
+    {
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+        
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'artBDTag   artBDTag    artBDTag    artBDTag    artBDTag    artBDTag    '
+        'asideTag1  asideTag1   asideTag2   asideTag2   asideTag3   asideTag3   '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }   
+}
+
+/* Best Destinations Tablet */
+@media screen and (min-width: 481px) and (max-width: 1279px)
+{
+#indexBD:hover, #ticketsBD:hover, #contactBD:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#indexBD:active, #ticketsBD:active, #contactBD:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#articleBD
+    {
+    grid-area: artBDTag;
+    }
+#articleBD1, #articleBD2, #articleBD3, #articleBD4, #articleBD5, #articleBD6
+    {
+    grid-area: artTag1, artTag2, artTag3, artTag4, artTag5, artTag6;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-indent: 0px;
+    word-spacing: normal;
+    border-style: double;
+    border-width: thin;
+    }
+#asideBD1, #asideBD2, #asideBD3
+    {
+    grid-area: asideTag1, asideTag2, asideTag3;
+    border-radius: 10px;
+    border-color: #ffffff;
+    }
+#bdF1, #bdF2, #bdF3
+    {
+    grid-area: bdf1Tag, bdf2Tag, bdf3Tag;
+    display: block;
+    float: left;
+    padding: 5px;
+    border: solid 2px #FFFFFF;
+    }
+#cookieBD
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+figcaption
+    {
+    color: #ffffff;
+    }
+figcaption:hover
+    {
+    color: #91ff00;
+    text-decoration: none;
+    }
+#grid-bd
+    {
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+        
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'artBDTag   artBDTag    artBDTag    artBDTag    artBDTag    artBDTag    '
+        'asideTag1  asideTag1   asideTag2   asideTag2   asideTag3   asideTag3   '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+
+/* Best Destinations Mobile */
+@media screen and (max-width: 480px)
+{
+#indexBD:hover, #ticketsBD:hover, #contactBD:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#indexBD:active, #ticketsBD:active, #contactBD:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#articleBD
+    {
+    grid-area: artBDTag;
+    }
+#articleBD1, #articleBD2, #articleBD3, #articleBD4, #articleBD5, #articleBD6
+    {
+    grid-area: artTag1, artTag2, artTag3, artTag4, artTag5, artTag6;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-indent: 0px;
+    word-spacing: normal;
+    border-style: double;
+    border-width: thin;
+    }
+#asideBD1, #asideBD2, #asideBD3
+    {
+    grid-area: asideTag1, asideTag2, asideTag3;
+    border-radius: 10px;
+    border-color: #ffffff;
+    }
+#bdF1, #bdF2, #bdF3
+    {
+    grid-area: bdf1Tag, bdf2Tag, bdf3Tag;
+    display: block;
+    float: left;
+    padding: 5px;
+    border: solid 2px #FFFFFF;
+    }
+#cookieBD
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+figcaption
+    {
+    color: #ffffff;
+    }
+figcaption:hover
+    {
+    color: #91ff00;
+    text-decoration: none;
+    }
+#grid-bd
+    {
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+        
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'artBDTag   artBDTag    artBDTag    artBDTag    artBDTag    artBDTag    '
+        'asideTag1  asideTag1   asideTag1   asideTag1   asideTag1   asideTag1   '
+        'asideTag2  asideTag2   asideTag2   asideTag2   asideTag2   asideTag2   '
+        'asideTag3  asideTag3   asideTag3   asideTag3   asideTag3   asideTag3   '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+
+/* Tickets PC */  
+@media screen and (min-width: 1280px)
+{
+header
+    {
+    grid-area: headerTag;
+    background-color: #7fffd4;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    }
+nav 
+    {
+    grid-area: navTag; 
+    }
+#sectionTickets
+    {
+    grid-area: sectionTag;
+    background-color: #ffa07a;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-indent: 0px;
+    word-spacing: normal;
+    border-style: double;
+    border-width: thin;
+    }
+#ticketsPrice
+    {
+    text-align: center;
+    }
+#copyrightInfo
+    {
+    grid-area: copyTag;
+    color: #000000;
+    position: relative;
+    bottom: 55px;
+    left: 23px;
+    }
+h2
+    {
+    grid-area: h2Tag;
+    }
+table
+    {
+    grid-area: tableTag;
+    }
+th  
+    {
+    grid-area: thTag;
+    text-align: center;    
+    }
+tr
+    {
+    grid-area: trTag;
+    background-color: #979090;
+    }
+td
+    {
+    grid-area: tdTag;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    }
+#asideTickets1, #asideTickets2, #asideTickets3
+    {
+    grid-area: asideTag1, asideTag2, asideTag3;
+    background-color: #d2e713;
+    border-radius: 10px;
+    text-align: center;
+    border-style: double;
+    border-width: thin;
+    }
+#ticketsF1, #ticketsF2, #ticketsF3
+    {
+    border: solid 2px #FFFFFF;
+    }
+footer /* NIET VERWIJDEREN! */
+    {
+    grid-area: footerTag;
+    background-color: #ff4c4c;
+    text-align: left;
+    padding: 10px;
+    }
+#indexTickets:hover, #bdTickets:hover, #contactTickets:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#indexTickets:active, #bdTickets:active, #contactTickets:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#cookieTickets
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+#grid-tickets
+    {
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak Tickets */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag1   '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag2   '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag3   '
+        'copyTag    copyTag     copyTag     copyTag     copyTag     copyTag     '    
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+
+/* Tickets Tablet */  
+@media screen and (min-width: 481px) and (max-width: 1279px)
+{
+header
+    {
+    grid-area: headerTag;
+    background-color: #7fffd4;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    }
+nav 
+    {
+    grid-area: navTag; 
+    }
+#sectionTickets
+    {
+    grid-area: sectionTag;
+    background-color: #ffa07a;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-indent: 0px;
+    word-spacing: normal;
+    border-style: double;
+    border-width: thin;
+    }
+#ticketsPrice
+    {
+    text-align: center;
+    }
+#copyrightInfo
+    {
+    grid-area: copyTag;
+    color: #000000;
+    position: relative;
+    bottom: 48px;
+    left: 23px;
+    }
+h2
+    {
+    grid-area: h2Tag;
+    }
+table
+    {
+    grid-area: tableTag;
+    }
+th  
+    {
+    grid-area: thTag;
+    text-align: center;    
+    }
+tr
+    {
+    grid-area: trTag;
+    background-color: #979090;
+    }
+td
+    {
+    grid-area: tdTag;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    }
+#asideTickets1, #asideTickets2, #asideTickets3
+    {
+    grid-area: asideTag1, asideTag2, asideTag3;
+    background-color: #d2e713;
+    border-radius: 10px;
+    text-align: center;
+    border-style: double;
+    border-width: thin;
+    }
+#ticketsF1, #ticketsF2, #ticketsF3
+    {
+    border: solid 2px #FFFFFF;
+    }
+footer /* NIET VERWIJDEREN! */
+    {
+    grid-area: footerTag;
+    background-color: #ff4c4c;
+    text-align: left;
+    padding: 10px;
+    }
+#indexTickets:hover, #bdTickets:hover, #contactTickets:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#indexTickets:active, #bdTickets:active, #contactTickets:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#cookieTickets
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+#grid-tickets
+    {
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak Tickets */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  sectionTag  '
+        'copyTag    copyTag     copyTag     copyTag     copyTag     copyTag     '
+        'asideTag2  asideTag2   asideTag2   asideTag3   asideTag3   asideTag3   '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+
+/* Tickets Mobile */  
+@media screen and (max-width: 480px)
+{
+header
+    {
+    grid-area: headerTag;
+    background-color: #7fffd4;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    }
+nav 
+    {
+    grid-area: navTag; 
+    }
+#sectionTickets
+    {
+    grid-area: sectionTag;
+    background-color: #ffa07a;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-indent: 0px;
+    word-spacing: normal;
+    border-style: double;
+    border-width: thin;
+    }
+#ticketsPrice
+    {
+    text-align: center;
+    }
+#copyrightInfo
+    {
+    grid-area: copyTag;
+    color: #000000;
+    position: relative;
+    bottom: 55px;
+    left: 23px;
+    }
+h2
+    {
+    grid-area: h2Tag;
+    }
+table
+    {
+    grid-area: tableTag;
+    }
+th  
+    {
+    grid-area: thTag;
+    text-align: center;    
+    }
+tr
+    {
+    grid-area: trTag;
+    background-color: #979090;
+    }
+td
+    {
+    grid-area: tdTag;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    }
+#asideTickets1, #asideTickets2, #asideTickets3
+    {
+    grid-area: asideTag1, asideTag2, asideTag3;
+    background-color: #d2e713;
+    border-radius: 10px;
+    text-align: center;
+    border-style: double;
+    border-width: thin;
+    }
+#ticketsF1, #ticketsF2, #ticketsF3
+    {
+    border: solid 2px #FFFFFF;
+    }
+footer /* NIET VERWIJDEREN! */
+    {
+    grid-area: footerTag;
+    background-color: #ff4c4c;
+    text-align: left;
+    padding: 10px;
+    }
+#indexTickets:hover, #bdTickets:hover, #contactTickets:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#indexTickets:active, #bdTickets:active, #contactTickets:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#cookieTickets
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+#grid-tickets
+    {
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak Tickets */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  sectionTag  '
+        'copyTag    copyTag     copyTag     copyTag     copyTag     copyTag     '    
+        'asideTag1  asideTag1   asideTag1   asideTag1   asideTag1   asideTag1   '
+        'asideTag2  asideTag2   asideTag2   asideTag2   asideTag2   asideTag2   '
+        'asideTag3  asideTag3   asideTag3   asideTag3   asideTag3   asideTag3   '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+
+/* Contact PC */
+@media screen and (min-width: 1280px)
+{
+input[type=text], select, textarea 
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+input[type=email], select, textarea 
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+input[type=message], select, textarea 
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+input[type=submit]
+    {
+    background-color: #00FF00;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    }
+#sectionContact
+    {
+    grid-area: sectionTag;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    }
+#asideContact1, #asideContact2, #asideContact3
+    {
+    grid-area: asideTag1, asideTag2, asideTag3;
+    background-color: #ff9100;   
+    border-radius: 10px;
+    text-align: center;
+    }
+#contactF1, #contactF2, #contactF3
+    {
+    grid-area: contactF1 / contactF2 / contactF3;
+    border: solid 2px #FFFFFF;
+    margin: 5px;
+    }
+nav /* NIET VERWIJDEREN! */
+{
+    background-color: #0082e6;
+    height: 100px;
+    width: 100%;
+    text-transform: uppercase;
+    }
+nav ul  /* NIET VERWIJDEREN! */
+    {
+    float: left;
+    margin-right: 20px;
+    } 
+nav ul li   /* NIET VERWIJDEREN! */
+    {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    }
+nav ul li a /* NIET VERWIJDEREN! */
+    {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    border-style: double;
+    }
+nav a   /* NIET VERWIJDEREN! */
+    {
+    width: 100px;
+    padding: 20px 15px;
+    text-decoration: none;
+    }
+#logo
+    {
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    }
+#indexContact:hover, #bdContact:hover, #ticketsContact:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#indexContact:active, #bdContact:active, #ticketsContact:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#cookieContact
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+#grid-contact
+    {
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag1   '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag2   '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag3   '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+
+/* Contact Tablet */
+@media screen and (min-width: 481px) and (max-width: 1279px)
+{
+input[type=text], select, textarea 
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+input[type=email], select, textarea 
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+input[type=message], select, textarea 
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+input[type=submit]
+    {
+    background-color: #00FF00;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    }
+#sectionContact
+    {
+    grid-area: sectionTag;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    }
+#asideContact1, #asideContact2, #asideContact3
+    {
+    grid-area: asideTag1, asideTag2, asideTag3;
+    background-color: #ff9100;   
+    border-radius: 10px;
+    text-align: center;
+    }
+#contactF1, #contactF2, #contactF3
+    {
+    grid-area: contactF1 / contactF2 / contactF3;
+    border: solid 2px #FFFFFF;
+    margin: 5px;
+    }
+nav /* NIET VERWIJDEREN! */
+{
+    background-color: #0082e6;
+    height: 100px;
+    width: 100%;
+    text-transform: uppercase;
+    }
+nav ul  /* NIET VERWIJDEREN! */
+    {
+    float: left;
+    margin-right: 20px;
+    } 
+nav ul li   /* NIET VERWIJDEREN! */
+    {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    }
+nav ul li a /* NIET VERWIJDEREN! */
+    {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    border-style: double;
+    }
+nav a   /* NIET VERWIJDEREN! */
+    {
+    width: 100px;
+    padding: 20px 15px;
+    text-decoration: none;
+    }
+#logo
+    {
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    }
+#indexContact:hover, #bdContact:hover, #ticketsContact:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#indexContact:active, #bdContact:active, #ticketsContact:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#cookieContact
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+#grid-contact
+    {
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag1   '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag2   '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  asideTag3   '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
+
+/* Contact Mobile */
+@media screen and (max-width: 480px)
+{
+input[type=text], select, textarea 
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+input[type=email], select, textarea 
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+input[type=message], select, textarea 
+    {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+input[type=submit]
+    {
+    background-color: #00FF00;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    }
+#sectionContact
+    {
+    grid-area: sectionTag;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    }
+#asideContact1, #asideContact2, #asideContact3
+    {
+    grid-area: asideTag1, asideTag2, asideTag3;
+    background-color: #ff9100;   
+    border-radius: 10px;
+    text-align: center;
+    }
+#contactF1, #contactF2, #contactF3
+    {
+    grid-area: contactF1 / contactF2 / contactF3;
+    border: solid 2px #FFFFFF;
+    margin: 5px;
+    }
+nav /* NIET VERWIJDEREN! */
+{
+    background-color: #0082e6;
+    height: 100px;
+    width: 100%;
+    text-transform: uppercase;
+    }
+nav ul  /* NIET VERWIJDEREN! */
+    {
+    float: left;
+    margin-right: 20px;
+    } 
+nav ul li   /* NIET VERWIJDEREN! */
+    {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    }
+nav ul li a /* NIET VERWIJDEREN! */
+    {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    border-style: double;
+    }
+nav a   /* NIET VERWIJDEREN! */
+    {
+    width: 100px;
+    padding: 20px 15px;
+    text-decoration: none;
+    }
+#logo
+    {
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    }
+#indexContact:hover, #bdContact:hover, #ticketsContact:hover
+    {
+    background: #000000;
+    transition: .5s;
+    color: #ff0000;
+    }
+#indexContact:active, #bdContact:active, #ticketsContact:active
+    {
+    background: #ff1100;
+    transition: .5s;
+    color: #ffffff;
+    }
+#cookieContact
+    {
+    grid-area: cookieTag;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid #FFF;
+    opacity: 50%;
+    z-index: 9999;
+    }
+#grid-contact
+    {
+    background-color: #000000;
+    border : solid 10px #0000FF;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: /* website opmaak */
+        'headerTag  headerTag   headerTag   headerTag   headerTag   headerTag   '
+        'navTag     navTag      navTag      navTag      navTag      navTag      '
+        'sectionTag sectionTag  sectionTag  sectionTag  sectionTag  sectionTag  '
+        'asideTag1  asideTag1   asideTag1   asideTag1   asideTag1   asideTag1   '
+        'asideTag2  asideTag2   asideTag2   asideTag2   asideTag2   asideTag2   '
+        'asideTag3  asideTag3   asideTag3   asideTag3   asideTag3   asideTag3   '
+        'footerTag  footerTag   footerTag   footerTag   footerTag   footerTag   ';
+    }
+}
